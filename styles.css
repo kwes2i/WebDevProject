@@ -1,0 +1,30 @@
+
+/** NAVBAR CSS**/
+.navbar {
+    background-color: #ddd;
+    display: flex;
+    padding: 20px 0;
+}
+.navbar .container{
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    display: inline-block;
+    float:left;
+    max-width: 400px;
+}
+.navbar ul{
+    list-style-type: none; /*Removes bullets/numbering*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /*Prevents overflow*/
+}
+.navbar li{
+    display: inline; /*Make horizontal*/
+    padding: 10px; /*Spacing between*/
+    font-family: "Segoe UI Black";
+    font-size: 26px;
+    color: #f5a71f;
+}
+
