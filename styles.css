@@ -6,7 +6,7 @@
 .body{
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI";
+    font-family: "Helvetica";;
     background-color: #f5a71f;
 }
 
@@ -18,7 +18,7 @@
 .container{ /*Adds padding at the side for all elements*/
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 100px;
+    padding: 20px 150px;
 }
 .logo{
     display: inline-block;
@@ -56,14 +56,30 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    padding: 140px 0;
+    padding: 100px 0;
 
 }
 .hero-title{
-    padding-left: 50px;
+    padding-left: 0px;
     font-family: "Helvetica";
     font-weight: bolder;
     font-size: 56px;
     inline-size: 450px;
     color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hero-btn{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-weight: bolder;
+    color: #fff;
+    background: #f5a71f;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-left: 250px;
+    display: inline-block;
+
 }
