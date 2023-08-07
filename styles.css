@@ -12,27 +12,31 @@
 
 /** NAVBAR CSS**/
 .navbar {
-    background-color: #ddd;
-    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
 }
 .container{ /*Adds padding at the side for all elements*/
-    margin-left: auto;
-    margin-right: auto;
     padding: 20px 150px;
+    justify-content: space-between;
 }
 .logo{
     display: inline-block;
-    vertical-align: middle;
+    float: left;
+    margin-top: -20px;
+    margin-right: 100px;
+    margin-left: -20px;
 }
 .navbar ul{
+    display: inline-block;
     list-style-type: none; /*Removes bullets/numbering*/
-    margin: 0;
+    /*margin: 0 0 0 150px;*/
     padding: 0;
     overflow: hidden; /*Prevents overflow*/
+    vertical-align: middle;
 }
 .navbar li{
-    display: inline; /*Make horizontal*/
-    padding: 10px; /*Spacing between*/
+    display: inline-block; /*Make horizontal*/
+    padding: 0 10px; /*Spacing between*/
     text-transform: uppercase;
     font-family: "Helvetica";
     font-weight: bolder;
@@ -42,6 +46,11 @@
     text-decoration: none;
     color: #f5a71f;
 }
+.navbar .active{
+    background: #e61e29;
+    padding: 3px 10px;
+    border-radius: 20px;
+}
 
 /*HERO CSS*/
 .hero{
@@ -49,7 +58,7 @@
     border: 0;
 }
 .hero-image{
-    background-image: linear-gradient(rgba(0,0,0,0.8),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
     rgba(0,0,0,0.4)),
     url("img/hero.jpeg");
     background-position: center center;
