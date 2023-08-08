@@ -60,6 +60,7 @@
     justify-content: flex-start;
 }
 
+/*Header CSS*/
 .heading{
     width: 75%;
     display: flex;
@@ -88,4 +89,42 @@
     width: 70%;
     font-size: 24px;
     margin-bottom: 30px;
+}
+.heading-border{
+    height: 50px;
+    background: linear-gradient(rgb(255, 255, 255),
+    rgba(0, 0, 0, 0.3));
+    ;
+}
+
+/*MENU CSS*/
+.menu-list{
+    overflow: hidden;
+    padding: 20px 100px;
+    max-width: 500px;
+    margin: auto;
+    background-image: linear-gradient(to right, #fff, rgba(0, 0, 0, 0.3) , #fff);
+}
+.menu-list h2, .menu-list p{
+    text-align: center;
+}
+.menu-list h2{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.menu-list p{
+    display: inline-block;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+.product{
+    text-align: left;
+    margin-left: 0;
+}
+
+.price{
+    text-align: right;
+    width: 30%;
+    m
 }
