@@ -84,10 +84,9 @@
     height: 4px;
     display: block;
     margin: 0 auto;
-    background-color: lightslategrey;
+    background-color: #e61e29;
 }
 .heading p{
-    color: grey;
     margin-bottom: 30px;
 }
 .container-main{
