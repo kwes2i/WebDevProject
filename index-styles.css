@@ -1,0 +1,200 @@
+/** BODY CSS**/
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", Arial;
+
+}
+
+/*NAVBAR CSS*/
+.navbar{
+    padding: 14px 0px;
+    background: #fff;
+}
+.container{ /*Adds padding at the side for all elements*/
+    padding: 0px 150px;
+}
+.navbar .container{
+
+    background: #fff;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 14px 20px;
+    color: #f5a71f;
+    text-align: center;
+    background: #fff;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    background: #fff;
+}
+.navbar li{
+    float: right;
+    list-style-type: none;
+    font-size: 26px;
+    font-family: "Helvetica", Arial;
+    font-weight: bolder;
+
+    background: #fff;
+}
+.navbar .active{
+    background: #e61e29;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.logo{
+    float: left;
+    vertical-align: center;
+    margin-left: -70px;
+    background: #fff;
+    padding: 0 20px 10px 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*HERO CSS*/
+.hero{
+    padding: 0;
+    border: 0;
+}
+.hero-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8),
+    rgba(0,0,0,0.4)),
+    url("img/hero.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 100px 0;
+
+}
+.hero-title{
+    padding-left: 0;
+    font-family: "Helvetica", Arial;
+    font-weight: bolder;
+    font-size: 56px;
+    inline-size: 450px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+}
+.hero-btn {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Helvetica, Arial;
+    font-weight: bolder;
+    color: #fff;
+    background: #f5a71f;
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-left: 250px;
+    display: inline-block;
+    box-shadow: inset 4px 4px 11px #b57c17,
+    inset -4px -4px 11px #ffd227;
+}
+.hero-border{
+    height: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0,0,0,0.0));
+}
+
+/*ABOUT US CSS*/
+.about .container{
+    display: flex;
+    float: left;
+    max-width: 400px;
+}
+.about-contents{
+    display: block;
+}
+.about-title {
+    text-align: center;
+    font-family: Helvetica, Arial;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+.about-para{
+    font-family: Helvetica, Arial;
+    padding-bottom: 15px;
+}
+.about-btn{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: Helvetica, Arial;
+    font-weight: bolder;
+    color: #fff;
+    background: #f5a71f;
+    padding: 10px 30px;
+    align-items: center;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    border: 3px;
+    box-shadow: inset 4px 4px 11px #b57c17,
+    inset -4px -4px 11px #ffd227;
+}
+.about-disc{
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 15px;
+    font-family: Helvetica, Arial;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+/*ORDER CSS*/
+.order-bg{
+    background: #808080;
+    border-radius: 20px;
+    display: flex;
+    font-family: Helvetica, Arial;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    margin: auto;
+    float: right;
+
+}
+.order-contents{
+    padding: 20px;
+}
+.order-header{
+    display: flex;
+    vertical-align: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+/*Buttons*/
+.order-deliveroo-btn,.order-ubereats-btn, .order-justeat-btn{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    background: #f5a71f;
+    padding: 5px 0px;
+    border-radius: 15px;
+    box-shadow: inset 4px 4px 11px #b57c17,
+    inset -4px -4px 11px #ffd227;
+    display: block;
+    text-align: center;
+}
+.order-border{
+    color: #fff;
+    font-family: Helvetica, Arial;
+    font-weight: bolder;
+    display: flex;
+    line-height: 16px;
+    padding: 15px 0;
+}
+.order-border-right, .order-border-left{
+    border-bottom: 5px red;
+    width: 50%;
+}

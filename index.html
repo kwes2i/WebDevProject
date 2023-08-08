@@ -3,31 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <title>Peri-Peri Sizzler</title>
-    <link rel="stylesheet" href="styles.css" type="text/css"> <!--CSS stylesheet link-->
+    <link rel="stylesheet" href="index-styles.css" type="text/css"> <!--CSS stylesheet link-->
 </head>
 <body>
 
 <!--Top Navigation Bar-->
 <header class="navbar">
     <div class="container">
-        <a href="#home"></a><img class="logo" width=250px src="img/logo.png"></a>
+        <img class="logo" width=250px src="img/logo.png"></a>
         <ul class="navbar-menu">
-            <li><a class="active" href="#home">Home</a></li>
-            <li><a href="#menu">Menu</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#order">Order</a></li>
+            <li><a href="#order">ORDER</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="menu.html">MENU</a></li>
+            <li><a class="active" href="#home">HOME</a></li>
         </ul>
     </div>
 </header>
 
 <!--Hero Title-->
-<div class="hero">
+<div class="hero" id="home">
     <div class="hero-image">
         <div class="container">
             <div class="hero-content"><!--Where the main information is stored-->
                 <h1 class="hero-title">Welcome to Peri-Peri Sizzler</h1>
                 <a class="hero-btn" href="#">Order</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hero-border"></div>
+
+<!--About us-->
+<div class="about">
+    <div class="container">
+        <div class="about-contents">
+            <h2 class="about-title">About Peri-Peri Sizzler</h2>
+            <p class="about-para">At Peri-Peri Sizzler, all of our
+                chicken is marinated in our special recipe to ensure that
+                our unique flavour penetrates to the core. This is what makes
+                our chicken so special. This unique flavour experience does
+                not stop here, as you can choose one of our freshly-made
+                sauces to have basted onto your chicken. At Peri-Peri Sizzler,
+                it's your choice.</p>
+            <a class="about-btn">Learn More!</a>
+            <p class="about-disc">"To promote healthy living, we fry our
+                food only using cholesterol-free vegetable oil, and we only
+                sell Halal meat!"</p>
+        </div>
+    </div>
+</div>
+
+<!--Order-->
+<div class="Order">
+    <div class="container">
+        <div class="order-bg">
+            <div class="order-contents">
+                <!--Deliveroo-->
+                <div class="order-deliveroo">
+                    <div class="order-header">
+                        <p class="order-deliveroo-p">Order with Deliveroo</p>
+                        <a href="https://deliveroo.co.uk/" >
+                            <img width=150px src="img/deliveroo.png"></a>
+                    </div>
+                    <a class="order-deliveroo-btn"
+                       href="https://deliveroo.co.uk/menu/bath/bath/peri-peri-sizzler">
+                        Order Now
+                    </a>
+                </div>
+                <div class="order-border">
+                    <div class="order-border-left"></div>
+                    <p>OR</p>
+                    <div class="order-border-right"></div>
+                </div>
+                <!--Uber Eats-->
+                <div class="order-ubereats">
+                    <div class="order-header">
+                        <p class="order-ubereats-p">Order with Uber Eats</p>
+                        <a href="https://www.ubereats.com/gb" >
+                            <img  width=150px src="img/ubereats.png"></a>
+                    </div>
+                    <a class="order-ubereats-btn"
+                       href="https://www.ubereats.com/gb/store/peri-peri-sizzler/m3Bd5leRQFq6F99lwSNaVg">
+                        Order Now
+                    </a>
+                </div>
+                <div class="order-border">
+                    <div class="order-border-left"></div>
+                    <p>OR</p>
+                    <div class="order-border-right"></div>
+                </div>
+                <!--Just Eat-->
+                <div class="order-justeat">
+                    <div class="order-header">
+                        <p class="order-justeat-p">Order with Just Eat</p>
+                        <a href="https://www.just-eat.co.uk/" >
+                            <img  width=150px src="img/justeat.png"></a>
+                    </div>
+                    <a class="order-justeat-btn"
+                       href="https://www.just-eat.co.uk/restaurants-peri-peri-sizzlers-linby/menu">
+                        Order Now
+                    </a>
+                </div>
             </div>
         </div>
     </div>
