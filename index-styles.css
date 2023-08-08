@@ -85,20 +85,6 @@
     display: inline-block;
     vertical-align: middle;
 }
-.hero-btn {
-    text-decoration: none;
-    font-size: 26px;
-    font-family: Helvetica, Arial;
-    font-weight: bolder;
-    color: #fff;
-    background: #f5a71f;
-    padding: 10px 30px;
-    border-radius: 15px;
-    margin-left: 250px;
-    display: inline-block;
-    box-shadow: inset 4px 4px 11px #b57c17,
-    inset -4px -4px 11px #ffd227;
-}
 .hero-border{
     height: 50px;
     background: linear-gradient(rgba(0, 0, 0, 0.3),
@@ -167,9 +153,10 @@
 }
 .order-header{
     display: flex;
-    vertical-align: center;
+    align-items: center;
     justify-content: space-between;
     gap: 50px;
+    padding-bottom: 15px;
 }
 
 /*Buttons*/
@@ -195,6 +182,5 @@
     padding: 15px 0;
 }
 .order-border-right, .order-border-left{
-    border-bottom: 5px red;
     width: 50%;
 }
